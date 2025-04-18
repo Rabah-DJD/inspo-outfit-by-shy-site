@@ -1,4 +1,3 @@
-// script.js
 
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("contactForm");
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    // Pour l'instant, on affiche juste un message de succès
     alert("Merci pour votre message ! Nous vous contacterons rapidement.");
     form.reset();
   });
