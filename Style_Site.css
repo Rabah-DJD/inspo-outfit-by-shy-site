@@ -1,6 +1,4 @@
-/* style.css */
 
-/* ----- Variables ----- */
 :root {
   --beige: #f5f5dc;
   --marron: #8b4513;
@@ -9,7 +7,7 @@
   --gris: #f0f0f0;
 }
 
-/* ----- Reset & base ----- */
+
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +28,7 @@ body {
   padding: 20px 0;
 }
 
-/* ----- Header ----- */
+
 header {
   background-color: var(--bordeaux);
   color: var(--blanc);
@@ -57,7 +55,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* ----- Menu Responsive ----- */
+
 nav button {
   display: none;
   background: none;
@@ -86,7 +84,7 @@ nav button {
 }
 
 
-/* ----- Hero Section ----- */
+
 .hero {
   background-color: var(--beige);
   padding: 60px 0;
@@ -99,7 +97,7 @@ nav button {
   margin-bottom: 10px;
 }
 
-/* ----- Produits Section ----- */
+
 .products {
   padding: 60px 0;
   background-color: var(--gris);
@@ -130,7 +128,7 @@ nav button {
   color: var(--marron);
 }
 
-/* ----- Contact Section ----- */
+
 .contact {
   padding: 60px 0;
 }
@@ -165,7 +163,7 @@ nav button {
   background-color: #a02020;
 }
 
-/* ----- Footer ----- */
+
 footer {
   background-color: var(--bordeaux);
   color: var(--blanc);
